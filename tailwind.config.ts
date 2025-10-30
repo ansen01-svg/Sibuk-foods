@@ -61,12 +61,16 @@ const config: Config = {
           default: "#29B0A7",
         },
         orange: {
-          default: "#F1BB02",
-          darker: "#F58025",
+          default: "#f4350e",
+          // default: "#F1BB02",
+          // darker: "#F58025",
+          darker: "#f4350e",
+          darkest: "#ea1e1e",
         },
         dark: {
           default: "#000",
           light: "#212121",
+          lighter: "#3f3f3f",
         },
       },
       borderRadius: {

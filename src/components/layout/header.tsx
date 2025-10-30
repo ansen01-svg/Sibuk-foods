@@ -45,7 +45,7 @@ const Header = () => {
               alt="Logo"
               width={80}
               height={80}
-              className="h-16 w-auto sm:h-20 md:h-24 lg:h-28"
+              className="h-16 w-auto md:h-24 lg:h-28"
             />
           </Link>
 
@@ -60,7 +60,7 @@ const Header = () => {
                   >
                     <Link
                       href={item.href}
-                      className="px-4 py-2 font-semibold font-roboto hover:bg-white transition-all duration-300 inline-block cursor-pointer"
+                      className="px-4 py-2 font-semibold font-roboto text-dark-light hover:bg-white transition-all duration-300 inline-block cursor-pointer"
                     >
                       {item.label}
                     </Link>
