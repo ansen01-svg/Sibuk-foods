@@ -48,7 +48,7 @@ const products: Product[] = [
 
 export default function ProductsSection() {
   return (
-    <section className="bg-turquiose-default py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
+    <section className="bg-orange-default py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
       <div className="w-full h-[250px] bg-white absolute top-0 left-0"></div>
 
       {/* Decorative wavy lines */}
@@ -75,30 +75,30 @@ export default function ProductsSection() {
         <div className="relative mb-24">
           {/* White border wrapper for organic shape */}
           <div className="bg-white rounded-[3rem] sm:rounded-[6.5rem] p-2 md:p-2.5">
-            <div className="bg-orange-default rounded-[3rem] sm:rounded-[6.5rem] px-8 py-12 md:px-16 md:py-16 lg:px-20 lg:py-20 relative overflow-hidden">
+            <div className="bg-dark-light rounded-[3rem] sm:rounded-[6.5rem] px-8 py-12 md:px-16 md:py-16 lg:px-20 lg:py-20 relative overflow-hidden">
               <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between">
                 {/* Left Section - Title */}
                 <div className="flex-1 text-center lg:text-left">
-                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-staatliches uppercase text-dark-light mb-4">
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-staatliches uppercase text-white mb-4">
                     PARTNER
                   </h2>
-                  <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-staatliches uppercase text-dark-light mb-8 tracking-tight">
+                  <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-staatliches uppercase text-white mb-8 tracking-tight">
                     WITH US
                   </h3>
                 </div>
 
                 {/* Right Section - Description & Link */}
-                <div className="flex-1 flex flex-col items-center sm:items-start max-w-2xl text-dark-light text-sm sm:text-base md:text-lg font-roboto">
+                <div className="flex-1 flex flex-col items-center sm:items-start max-w-2xl text-white text-sm sm:text-base md:text-lg font-roboto">
                   <p className="leading-relaxed mb-6">
                     {`Join the Costa Vida family and bring fresh Mexican cuisine
                     to your community. We're looking for passionate partners who
                     share our commitment to quality ingredients and exceptional
                     customer experiences.`}
                   </p>
-                  <div className="flex flex-wrap gap-4 text-black font-semibold">
+                  <div className="flex flex-wrap gap-4 text-white font-semibold">
                     <a
                       href="/partner"
-                      className="inline-block bg-transparent border-2 border-black px-6 py-3 text-dark-light font-roboto rounded-full hover:bg-dark-light hover:text-orange-default transition-colors uppercase text-sm md:text-base"
+                      className="inline-block bg-transparent border-2 border-white px-6 py-3 text-white font-roboto rounded-full hover:bg-white hover:text-dark-light transition-colors uppercase text-sm md:text-base"
                     >
                       Partner With Us
                     </a>
@@ -119,7 +119,7 @@ export default function ProductsSection() {
           {products.map((product) => (
             <div
               key={product.id}
-              className="px-10 py-8 flex flex-col items-center justify-center rounded-[3rem] group cursor-pointer bg-turquiose-default hover:bg-[#3a9a8f] transition-colors duration-300"
+              className="px-10 py-8 flex flex-col items-center justify-center rounded-[3rem] group cursor-pointer bg-orange-default hover:bg-orange-darkest transition-colors duration-300"
             >
               <div className="relative w-48 h-48 sm:w-64 sm:h-64 overflow-hidden mb-4 transition-transform duration-300 group-hover:scale-105">
                 <div className="absolute inset-0" />
@@ -145,7 +145,7 @@ export default function ProductsSection() {
           </h4>
           <Link
             href={"/products"}
-            className="bg-dark-light hover:bg-gray-800 text-white px-6 py-[12px] rounded-full text-sm md:text-base font-semibold hover:bg-black/90 transition-colors uppercase"
+            className="bg-dark-light hover:bg-dark-lighter text-white px-6 py-[12px] rounded-full text-sm md:text-base font-semibold hover:bg-black/90 transition-colors uppercase"
           >
             View All Products
           </Link>

@@ -49,7 +49,7 @@ export default function AboutSection() {
               ingredients — connecting tradition with modern lifestyles.
             </p>
 
-            <button className="bg-black hover:bg-gray-800 text-white px-6 py-[10px] rounded-full text-sm md:text-base font-roboto font-semibold uppercase">
+            <button className="bg-dark-light hover:bg-dark-lighter text-white px-6 py-[10px] rounded-full text-sm md:text-base font-roboto font-semibold uppercase">
               About Us
             </button>
           </div>

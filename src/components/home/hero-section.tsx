@@ -29,7 +29,7 @@ const slides: HeroSlide[] = [
     title: "Sibuk Banana Chips",
     subtitle: "Pure Banana. Pure Bliss",
     description:
-      "From sweet & spicy Horchata to refreshing Limonada, enhance your favorite meal with a refreshing beverage.",
+      "Indulge in the wholesome crunch of SIBUK Banana Chips—slow-crafted from 100% natural bananas for ultimate purity and flavor",
     image: img1,
   },
   {
@@ -97,13 +97,13 @@ export default function HeroSection() {
                     <div className="flex flex-row gap-3 sm:gap-4 font-roboto">
                       <Button
                         size="sm"
-                        className="bg-black hover:bg-gray-800 text-white px-6 py-[20px] rounded-full text-sm md:text-base font-semibold uppercase"
+                        className="bg-dark-light hover:bg-dark-lighter text-white px-6 py-[20px] rounded-full text-sm md:text-base font-semibold uppercase"
                       >
                         Products
                       </Button>
                       <Button
                         size="sm"
-                        className="bg-black hover:bg-gray-800 text-white px-6 py-[20px] rounded-full text-sm md:text-base font-semibold uppercase"
+                        className="bg-dark-light hover:bg-dark-lighter text-white px-6 py-[20px] rounded-full text-sm md:text-base font-semibold uppercase"
                       >
                         Visit Our Restaurant
                       </Button>
@@ -134,7 +134,7 @@ export default function HeroSection() {
         {/* Next Button - Hidden on mobile */}
         <button
           onClick={handleNext}
-          className="hidden lg:flex absolute right-8 top-1/2 -translate-y-1/2 z-20 w-14 h-14 bg-black hover:bg-gray-800 rounded-full items-center justify-center transition-colors"
+          className="hidden lg:flex absolute right-8 top-1/2 -translate-y-1/2 z-20 w-14 h-14 bg-dark-light hover:bg-dark-lighter rounded-full items-center justify-center transition-colors"
           aria-label="Next slide"
         >
           <ChevronRight className="w-6 h-6 text-white" />

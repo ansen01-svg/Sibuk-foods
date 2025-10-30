@@ -42,7 +42,7 @@ const legalLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-orange-darker font-roboto relative overflow-hidden py-16 px-4 md:px-8 lg:px-16">
+    <footer className="bg-dark-light font-roboto relative overflow-hidden py-16 px-4 md:px-8 lg:px-16">
       {/* Decorative Dots */}
       <div className="absolute inset-0 pointer-events-none">
         {[...Array(30)].map((_, i) => (
