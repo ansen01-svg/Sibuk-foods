@@ -1,7 +1,7 @@
 "use client";
 
+import logo from "@/assets/images/sibuk-logo-main.png";
 import logo1 from "@/assets/images/sibuk-logo-transparent.png";
-import logo from "@/assets/images/sibuk-logo.png";
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
@@ -22,10 +22,10 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navItems = [
-  { label: "ABOUT", href: "/about-us" },
+  { label: "ABOUT US", href: "/about-us" },
   { label: "PRODUCTS", href: "/products" },
   { label: "OUR VIEW", href: "/vision-and-mission" },
-  { label: "CONTACT", href: "/contact-us" },
+  { label: "CONTACT US", href: "/contact-us" },
 ];
 
 const Header = () => {

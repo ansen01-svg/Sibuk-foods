@@ -1,5 +1,6 @@
 "use client";
 
+import logoRound from "@/assets/images/sibuk-logo-main-round.png";
 import logo from "@/assets/images/sibuk-logo-transparent.png";
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import Image from "next/image";
@@ -151,6 +152,19 @@ export default function Footer() {
                 {link.label}
               </Link>
             ))}
+          </div>
+
+          {/* Right Section - Logo Circle */}
+          <div className="hidden md:flex justify-center lg:justify-end items-start">
+            <div className="relative w-48 h-48 flex items-center justify-center">
+              <Image
+                src={logoRound}
+                alt="Costa Vida Logo"
+                width={120}
+                height={120}
+                className="w-full h-full object-contain"
+              />
+            </div>
           </div>
         </div>
       </div>

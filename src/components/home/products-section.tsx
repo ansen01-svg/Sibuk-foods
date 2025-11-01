@@ -90,7 +90,7 @@ export default function ProductsSection() {
                 {/* Right Section - Description & Link */}
                 <div className="flex-1 flex flex-col items-center sm:items-start max-w-2xl text-white text-sm sm:text-base md:text-lg font-roboto">
                   <p className="leading-relaxed mb-6">
-                    {`Join the Costa Vida family and bring fresh Mexican cuisine
+                    {`Join the Sibuk family and bring fresh local products
                     to your community. We're looking for passionate partners who
                     share our commitment to quality ingredients and exceptional
                     customer experiences.`}
@@ -141,7 +141,10 @@ export default function ProductsSection() {
         {/* View Products Button */}
         <div className="text-center">
           <h4 className="text-white text-3xl md:text-4xl lg:text-5xl font-knewave italic mb-8">
-            100% DELICIOUS, EASY-TO-SAY INGREDIENTS
+            Nature-Inspired, Made for Today
+          </h4>
+          <h4 className="text-white text-3xl md:text-4xl lg:text-5xl font-knewave italic mb-8">
+            “Go Healthy, Go Tasty”
           </h4>
           <Link
             href={"/products"}
